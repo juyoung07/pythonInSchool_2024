@@ -8,11 +8,15 @@
 # print(result)
 
 # type(변수명) : 변수의 자료형을 알려줍니다.
-age = 18
-print(type(age))
+# age = 18
+# print(type(age))
+#
+# pi = 3.14
+# print(type(pi))
+#
+# x = 10 + 3.14
+# print(type(x))
 
-pi = 3.14
-print(type(pi))
-
-x = 10 + 3.14
-print(type(x))
+# 진수 표현
+print(0b1100111000)
+print(type(0b1100111000))
