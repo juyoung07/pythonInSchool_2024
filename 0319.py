@@ -18,5 +18,12 @@
 # print(type(x))
 
 # 진수 표현
-print(0b1100111000)
-print(type(0b1100111000))
+# print(0b1100111000)
+# print(type(0b1100111000))
+
+# 지수 표현
+print(10e3)
+print(type(10e3))
+print(1.23456e-2)
+print(type(1.23456e-2))
+print(1.23456e22)
