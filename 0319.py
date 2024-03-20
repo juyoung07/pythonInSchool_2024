@@ -41,9 +41,26 @@
 # print(d*d.conjugate())
 
 # 변환 함수 (형변환)
-print(int('132'))
+# print(int('132'))
 # print(int('132.0'))             # 실수인 문자형 -> 변환 과정을 2번 해야 함
 # print(int('132.4'))             # 변환 과정을 2번 해야 함
-print(float('132.0'))
-print(float('132.4'))
-print(float('132'))
+# print(float('132.0'))
+# print(float('132.4'))
+# print(float('132'))
+
+# 문자열 다루기
+greeting = 'Hello'
+to = "world!"
+print(greeting)
+print(type(greeting))
+
+say_hello = greeting + ", " + to
+print(say_hello)
+
+print("Hello" * 5)
+print("\"Hello\"\n" + to)
+print('"Hello"\n' + to)
+
+multiline = """Happy
+Programming"""
+print(multiline)
