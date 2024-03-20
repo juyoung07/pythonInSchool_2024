@@ -29,13 +29,21 @@
 # print(1.23456e22)
 
 # 복소수
-print(8+24j)
-c = 1.2 + 3.4j
+# print(8+24j)
+# c = 1.2 + 3.4j
+#
+# print(type(1.2 + 3.4j))
+# print(c.real)
+# print(c.imag)
+# print(c.conjugate())        # 켤레 복소수를 구하는 함수
+#
+# d = 1j
+# print(d*d.conjugate())
 
-print(type(1.2 + 3.4j))
-print(c.real)
-print(c.imag)
-print(c.conjugate())        # 켤레 복소수를 구하는 함수
-
-d = 1j
-print(d*d.conjugate())
+# 변환 함수 (형변환)
+print(int('132'))
+# print(int('132.0'))             # 실수인 문자형 -> 변환 과정을 2번 해야 함
+# print(int('132.4'))             # 변환 과정을 2번 해야 함
+print(float('132.0'))
+print(float('132.4'))
+print(float('132'))
