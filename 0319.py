@@ -1,8 +1,18 @@
-age= 18
-print(age)
+# age= 18
+# print(age)
+#
+# after_2 = 2
+# print(age + after_2)
+#
+# result = age - after_2
+# print(result)
 
-after_2 = 2
-print(age + after_2)
+# type(변수명) : 변수의 자료형을 알려줍니다.
+age = 18
+print(type(age))
 
-result = age - after_2
-print(result)
+pi = 3.14
+print(type(pi))
+
+x = 10 + 3.14
+print(type(x))
