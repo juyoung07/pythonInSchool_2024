@@ -22,8 +22,20 @@
 # print(type(0b1100111000))
 
 # 지수 표현
-print(10e3)
-print(type(10e3))
-print(1.23456e-2)
-print(type(1.23456e-2))
-print(1.23456e22)
+# print(10e3)
+# print(type(10e3))
+# print(1.23456e-2)
+# print(type(1.23456e-2))
+# print(1.23456e22)
+
+# 복소수
+print(8+24j)
+c = 1.2 + 3.4j
+
+print(type(1.2 + 3.4j))
+print(c.real)
+print(c.imag)
+print(c.conjugate())        # 켤레 복소수를 구하는 함수
+
+d = 1j
+print(d*d.conjugate())
