@@ -41,7 +41,10 @@
 # print("'{:+0d}'".format(515))
 
 # 포맷 실수 표현
-print("'{:f}'".format(11.17))
-print("'{:12f}'".format(11.17))
-print("'{:12.1f}'".format(11.17))
+# print("'{:f}'".format(11.17))
+# print("'{:12f}'".format(11.17))
+# print("'{:12.1f}'".format(11.17))
+
+# 혼자 해보기
+print("{:=+6.1f}".format(11.17))
 
