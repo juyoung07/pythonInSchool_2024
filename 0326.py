@@ -83,12 +83,20 @@
 # nums[7] = 60
 
 # 리스트에서 요소 제거
-del nums[2]
-print(nums)
-nums.remove(20)
-print(nums)
-print(nums.pop())
-print(nums.pop(5))
-nums.clear()
-print(nums)
+# del nums[2]
+# print(nums)
+# nums.remove(20)
+# print(nums)
+# print(nums.pop())
+# print(nums.pop(5))
+# nums.clear()
+# print(nums)
+
+# 리스트에서 요소 검색
+nums = list(range(3))
+nums += [100, 10]
+print(nums[3])
+print(3 in nums)
+print(10 in nums)
+print(nums.count(2))
 
