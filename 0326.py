@@ -33,10 +33,15 @@
 # print("name: {name}, number: {num},".format(name = "Jordan", num=23))
 
 # 포맷 정수 표현
-print("'{:d}'".format(515))
-print("'{:5d}'".format(515))
-print("'{:+5d}'".format(515))
-print("'{:=+d}'".format(515))
-print("'{:05d}'".format(515))
-print("'{:+0d}'".format(515))
+# print("'{:d}'".format(515))
+# print("'{:5d}'".format(515))
+# print("'{:+5d}'".format(515))
+# print("'{:=+d}'".format(515))
+# print("'{:05d}'".format(515))
+# print("'{:+0d}'".format(515))
+
+# 포맷 실수 표현
+print("'{:f}'".format(11.17))
+print("'{:12f}'".format(11.17))
+print("'{:12.1f}'".format(11.17))
 
