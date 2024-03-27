@@ -59,16 +59,28 @@
 # nums = list(range(3))
 
 # 리스트에 요소 추가
+# nums = list(range(3))
+# print(nums+[10, 11])
+# nums += [10, 11]
+# print(nums)
+# nums.append(20)
+# print(nums)
+# nums.append([30, 31])
+# print(nums)
+# nums.insert(2, 40)
+# print(nums)
+# nums.extend([50, 51])
+# print(nums)
+
+# 리스트 요소 수정
 nums = list(range(3))
-print(nums+[10, 11])
 nums += [10, 11]
-print(nums)
 nums.append(20)
-print(nums)
 nums.append([30, 31])
-print(nums)
 nums.insert(2, 40)
-print(nums)
 nums.extend([50, 51])
-print(nums)
+print(nums[7])
+nums[7] = 60
+
+
 
