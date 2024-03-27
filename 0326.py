@@ -93,10 +93,18 @@
 # print(nums)
 
 # 리스트에서 요소 검색
-nums = list(range(3))
-nums += [100, 10]
-print(nums[3])
-print(3 in nums)
-print(10 in nums)
-print(nums.count(2))
+# nums = list(range(3))
+# nums += [100, 10]
+# print(nums[3])
+# print(3 in nums)
+# print(10 in nums)
+# print(nums.count(2))
 
+# range 함수
+print(range(3))
+print(range(1, 10))
+print(range(1, 10, 2))
+print(set(range(1, 10, 2)))
+print(list(range(1, -5, -2)))
+for i in range(3) :
+    print(i)
