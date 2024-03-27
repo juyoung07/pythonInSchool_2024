@@ -18,3 +18,12 @@ print(h.replace("Happy", "Funny"))
 print(h.find("ap"))
 print(h.rfind("a"))
 print("zoo")
+
+h = "  Happy Programming  "
+print("a" in h)
+print("amp" in h)
+x = "01::23::ab::&&"
+y = x.split("::")
+print(y)
+print(", " .join(y))
+
