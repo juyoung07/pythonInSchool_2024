@@ -46,5 +46,15 @@
 # print("'{:12.1f}'".format(11.17))
 
 # 혼자 해보기
-print("{:=+6.1f}".format(11.17))
+# print("{:=+6.1f}".format(11.17))
+
+# 리스트 : [], 튜플 : (), 딕셔너리 : {키:값, 키:값}, {값, 값}
+# 리스트 생성
+l : []
+player = ["Messi", 10, True]
+print(list("happy"))
+print(list((1125, 2436)))
+print(list({"menu":"pizza","price":10000}))
+print(list({"사과", "배"}))
+nums = list(range(3))
 
