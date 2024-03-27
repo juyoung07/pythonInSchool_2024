@@ -73,14 +73,22 @@
 # print(nums)
 
 # 리스트 요소 수정
-nums = list(range(3))
-nums += [10, 11]
-nums.append(20)
-nums.append([30, 31])
-nums.insert(2, 40)
-nums.extend([50, 51])
-print(nums[7])
-nums[7] = 60
+# nums = list(range(3))
+# nums += [10, 11]
+# nums.append(20)
+# nums.append([30, 31])
+# nums.insert(2, 40)
+# nums.extend([50, 51])
+# print(nums[7])
+# nums[7] = 60
 
-
+# 리스트에서 요소 제거
+del nums[2]
+print(nums)
+nums.remove(20)
+print(nums)
+print(nums.pop())
+print(nums.pop(5))
+nums.clear()
+print(nums)
 
